@@ -1,0 +1,14 @@
+﻿{
+  "SchemaVersion": 1,
+  "Name": "azure-sphere-combo-mnist-hlcore",
+  "ComponentId": "6a6c47b3-16da-468e-b2ec-524f5668a156",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Gpio": [ "$ILI9341_RST", "$ILI9341_DC", "$ILI9341_BL" ],
+    "I2cMaster": [ "$FT6X06_I2C" ],
+    "SpiMaster": [ "$ILI9341_SPI" ],
+    "AllowedApplicationConnections": []
+  },
+  "ApplicationType": "Default"
+}
