@@ -47,6 +47,7 @@
 #define FT6206_TOUCH_AREA_MASK          (0x04 << 4)
 #define FT6206_TOUCH_AREA_SHIFT         0x04
 
+#define FT6206_PERIODACTIVE_REG         0x88
 #define FT6206_CHIP_ID_REG              0xA8
 
 #define FT6206_ID_VALUE                 0x11

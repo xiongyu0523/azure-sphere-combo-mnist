@@ -131,4 +131,5 @@ void	 ili9341_draw_bitmap(uint16_t x0, uint16_t y0, uint16_t width, uint16_t hei
 void	 ili9341_draw_rect(uint16_t x0, uint16_t y0, uint16_t width, uint16_t height, uint16_t color);
 void	 ili9341_set_window(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1);
 void	 ili9341_fillCircle(uint16_t x0, uint16_t y0, uint16_t r, uint16_t color);
+void	 ili9341_draw_pixel(uint16_t x, uint16_t y, uint16_t color);
 #endif /* __ILI9341_H */

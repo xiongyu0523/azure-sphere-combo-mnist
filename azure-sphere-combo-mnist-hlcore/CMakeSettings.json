@@ -2,7 +2,7 @@
   "environments": [
     {
       "environment": "AzureSphere",
-      "AzureSphereTargetApiSet": "3",
+      "AzureSphereTargetApiSet": "3+Beta1909",
       "AzureSphereTargetHardwareDefinitionDirectory": "Hardware\\mt3620_rdb",
       "AzureSphereTargetHardwareDefinition": "sample_hardware.json"
     }

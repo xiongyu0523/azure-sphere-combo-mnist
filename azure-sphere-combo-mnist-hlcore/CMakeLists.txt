@@ -13,8 +13,8 @@ include_directories(${CMAKE_SOURCE_DIR}
 add_compile_definitions(AzureSphere_CA7)
 
 # Create executable
-add_executable (${PROJECT_NAME} main.c delay.c
-				ili9341_driver/ili9341.c ili9341_driver/ili9341_ll.c 
+add_executable (${PROJECT_NAME} main.c delay.c epoll_timerfd_utilities.c 
+				ili9341_driver/ili9341.c ili9341_driver/ili9341_ll.c ili9341_driver/text.c ili9341_driver/font.c
 				ft6x06_driver/ft6x06.c ft6x06_driver/ft6x06_ll.c)
 target_link_libraries (${PROJECT_NAME} applibs pthread gcc_s c)
 

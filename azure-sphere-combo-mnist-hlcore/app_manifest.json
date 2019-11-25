@@ -8,7 +8,7 @@
     "Gpio": [ "$ILI9341_RST", "$ILI9341_DC", "$ILI9341_BL" ],
     "I2cMaster": [ "$FT6X06_I2C" ],
     "SpiMaster": [ "$ILI9341_SPI" ],
-    "AllowedApplicationConnections": []
+    "AllowedApplicationConnections": [ "8903cf17-d461-4d72-8293-0b7c5a56222b" ]
   },
   "ApplicationType": "Default"
 }
